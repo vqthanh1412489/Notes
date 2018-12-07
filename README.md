@@ -72,18 +72,18 @@ Tham trị: gồm những giá trị mang kiểu String, Number, Boolean, Null, 
 Tham biến: Những giá trị kiểu Object.
 ```
 **Array**
-`.push(‘Thanh’)` Thêm vào cuối mảng. Làm thay đổi. Output: New length của mảng
-`.pop()` Xóa phần tử cuối. Làm thay đổi. Output:  Phần tử bị xóa.
-`.shift()` Xóa phần tử đầu của mảng. Làm thay đổi. Output: Phần tử  bị xóa
-`.unshift(‘Thanh’)` Thêm phân tử vào đẩu mảng. Làm thay đổi. Output:n New length của mảng.
-`.splice(indexStart, countDelete, itemAdd...)` Làm thay đổi. Output: Phần tử bị xóa. Nếu không xóa, chỉ thêm thì `return []`;
-`Array.isArray(arrNumber)` Check có phải là array hay k? hoặc có thể dùng:
-```sh
+- `.push(‘Thanh’)` Thêm vào cuối mảng. Làm thay đổi. Output: New length của mảng
+- `.pop()` Xóa phần tử cuối. Làm thay đổi. Output:  Phần tử bị xóa.
+- `.shift()` Xóa phần tử đầu của mảng. Làm thay đổi. Output: Phần tử  bị xóa
+- `.unshift(‘Thanh’)` Thêm phân tử vào đẩu mảng. Làm thay đổi. Output:n New length của mảng.
+- `.splice(indexStart, countDelete, itemAdd...)` Làm thay đổi. Output: Phần tử bị xóa. Nếu không xóa, chỉ thêm thì `return []`;
+- `Array.isArray(arrNumber)` Check có phải là array hay k? hoặc có thể dùng:
+- ```sh
 function isArray(x) {
 return x.constructor.toString().indexOf(“Array”) > -1;
 };
 ```
-`fruits instanceof Array` trả về kết quả true
+- `fruits instanceof Array` trả về kết quả true
 **String** Easy
 **Khởi tạo file init ts và biên dịch code qua js.**
 ```sh
