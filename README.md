@@ -76,7 +76,9 @@ tsc -w: theo doi thay doi
 
 ## Ubuntu
 <img src="https://imgur.com/a/27ALp4j">
-`sudo apt-get autoremove`
+```sh
+sudo apt-get autoremove
+```
 
 ```sh sudo apt-get clean
 sudo apt-get autoclean
@@ -98,40 +100,52 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
 Install Nodejs & npm
-```sudo apt install nodejs
-sudo apt install npm```
+```sh 
+sudo apt install nodejs
+sudo apt install npm
+```
 
 Install Yarn
-```curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list```
-
-```sudo apt-get update && sudo apt-get install --no-install-recommends yarn```
+```sh
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install --no-install-recommends yarn
+```
 
 
 Install nodemon
-```sudo npm install -g nodemon```
+```sh 
+sudo npm install -g nodemon
+```
 
-* Install mongodb
-```sudo apt install -y mongodb```
-
+Install mongodb
+```sh
+sudo apt install -y mongodb
+```
 
 Managing the Service
-```sudo systemctl status mongodb
+```sh 
+sudo systemctl status mongodb
 sudo systemctl stop mongodb
 sudo systemctl start mongodb
 sudo systemctl restart mongodb
 
 service --status-all
 systemctl disable mongodb
-systemctl enable mongodb```
+systemctl enable mongodb
+```
 
 Save ssh-key githup
-```git config credential.helper store```
+```sh
+git config credential.helper store
+```
 
 
 Classic menu
-```sudo apt-add-repository ppa:diesch/testing
+```sh
+sudo apt-add-repository ppa:diesch/testing
 sudo apt-get update
-sudo apt-get install classicmenu-indicator```
+sudo apt-get install classicmenu-indicator
+```
 
 
