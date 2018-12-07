@@ -77,8 +77,8 @@ tsc -w: theo doi thay doi
 ## Ubuntu
 `sudo apt-get autoremove`
 
-`sudo apt-get clean`
-`sudo apt-get autoclean`
+```sudo apt-get clean
+sudo apt-get autoclean```
 
 ```du -sh ~/.cache/thumbnails
 rm -rf ~/.cache/thumbnails/*```
