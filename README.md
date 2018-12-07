@@ -78,14 +78,18 @@ Tham biến: Những giá trị kiểu Object.
 - `.unshift(‘Thanh’)` Thêm phân tử vào đẩu mảng. Làm thay đổi. Output:n New length của mảng.
 - `.splice(indexStart, countDelete, itemAdd...)` Làm thay đổi. Output: Phần tử bị xóa. Nếu không xóa, chỉ thêm thì `return []`;
 - `Array.isArray(arrNumber)` Check có phải là array hay k? hoặc có thể dùng:
-- ```sh
+```sh
 function isArray(x) {
 return x.constructor.toString().indexOf(“Array”) > -1;
 };
 ```
-- `fruits instanceof Array` trả về kết quả true
-**String** Easy
+
+`fruits instanceof Array` trả về kết quả true
+
+**String**
+
 **Khởi tạo file init ts và biên dịch code qua js.**
+
 ```sh
 tsc --init: auto chay
 tsc -w: theo doi thay doi
