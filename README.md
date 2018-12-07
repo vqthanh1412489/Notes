@@ -75,7 +75,7 @@ tsc --init: auto chay
 tsc -w: theo doi thay doi
 
 ## Ubuntu
-![alt text](https://imgur.com/a/27ALp4j)
+<img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350">
 
 `sudo apt-get autoremove`
 
