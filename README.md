@@ -1,12 +1,9 @@
 ## Notes
 
-|Name|Age  |
-|---|---|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|Name|Age|University| Program Languages|
+|---|---|---|---|
+| Vũ Quốc Thanh | 23 | HCMUS | JS |
+
 
 ## Push heroku Nodejs
 - Xóa tất cả các dòng code dứ thừa phát sinh phục vụ quá trình dev (vd: reload, test...)
