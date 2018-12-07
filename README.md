@@ -75,19 +75,27 @@ tsc --init: auto chay
 tsc -w: theo doi thay doi
 
 ## Ubuntu
+<img src="https://imgur.com/a/27ALp4j">
 `sudo apt-get autoremove`
 
-```sudo apt-get clean
-sudo apt-get autoclean```
+```sh sudo apt-get clean
+sudo apt-get autoclean
+```
 
-```du -sh ~/.cache/thumbnails
-rm -rf ~/.cache/thumbnails/*```
+```sh 
+du -sh ~/.cache/thumbnails
+rm -rf ~/.cache/thumbnails/*
+```
 
-```sudo dpkg --list 'linux-image*'
-sudo apt-get remove linux-image-VERSION // add version ```
+```sh 
+sudo dpkg --list 'linux-image*'
+sudo apt-get remove linux-image-VERSION // add version 
+```
 
 Minimiza windows
-```gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'```
+```sh 
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+```
 
 Install Nodejs & npm
 ```sudo apt install nodejs
