@@ -73,3 +73,60 @@ fruits instanceof Array     // trả về kết quả true
 7.  Khởi tạo file init ts và biên dịch code qua js.
 tsc --init: auto chay
 tsc -w: theo doi thay doi
+
+# Ubuntu
+sudo apt-get autoremove
+
+sudo apt-get clean
+sudo apt-get autoclean
+
+du -sh ~/.cache/thumbnails
+rm -rf ~/.cache/thumbnails/*
+
+sudo dpkg --list 'linux-image*'
+sudo apt-get remove linux-image-VERSION // add version 
+
+// Minimiza windows
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
+sudo apt update
+
+
+// Install Nodejs & npm
+sudo apt install nodejs
+sudo apt install npm
+
+//Install Yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt-get update && sudo apt-get install --no-install-recommends yarn
+
+
+// Install nodemon
+sudo npm install -g nodemon
+
+// Install mongodb
+sudo apt install -y mongodb
+
+
+// Managing the MongoDB Service
+sudo systemctl status mongodb
+sudo systemctl stop mongodb
+sudo systemctl start mongodb
+sudo systemctl restart mongodb
+
+service --status-all
+systemctl disable mongodb
+systemctl enable mongodb
+
+// Save ssh-key githup
+git config credential.helper store
+
+
+// Classic menu
+sudo apt-add-repository ppa:diesch/testing
+sudo apt-get update
+sudo apt-get install classicmenu-indicator
+
+
