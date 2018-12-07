@@ -76,11 +76,11 @@ tsc -w: theo doi thay doi
 
 ## Ubuntu
 <img src="https://imgur.com/a/27ALp4j">
-```sh
-sudo apt-get autoremove
-```
 
-```sh sudo apt-get clean
+`sudo apt-get autoremove`
+
+```sh 
+sudo apt-get clean
 sudo apt-get autoclean
 ```
 
