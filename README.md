@@ -120,36 +120,35 @@ sudo dpkg --list 'linux-image*'
 sudo apt-get remove linux-image-VERSION // add version 
 ```
 
-Minimiza windows
+**Minimiza windows**
 ```sh 
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
-Install Nodejs & npm
+**Install Nodejs & npm**
 ```sh 
 sudo apt install nodejs
 sudo apt install npm
 ```
 
-Install Yarn
+**Install Yarn**
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 $ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update && sudo apt-get install --no-install-recommends yarn
 ```
 
-
-Install nodemon
+**Install nodemon**
 ```sh 
 sudo npm install -g nodemon
 ```
 
-Install mongodb
+**Install mongodb**
 ```sh
 sudo apt install -y mongodb
 ```
 
-Managing the Service
+**Managing the Service**
 ```sh 
 sudo systemctl status mongodb
 sudo systemctl stop mongodb
@@ -161,17 +160,20 @@ systemctl disable mongodb
 systemctl enable mongodb
 ```
 
-Save ssh-key githup
+**Save ssh-key githup**
 ```sh
 git config credential.helper store
 ```
 
 
-Classic menu
+**Classic menu**
 ```sh
 sudo apt-add-repository ppa:diesch/testing
 sudo apt-get update
 sudo apt-get install classicmenu-indicator
 ```
 
+## Fix Error
+**Fix vs code not update files when changed**
+> "files.useExperimentalFileWatcher": true doesn't affect this bug.
 
