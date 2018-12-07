@@ -41,3 +41,35 @@ Khi mới cài đặt kết nối với MySQL có lỗi:
 Client does not support authentication protocol.....
 Vô MySQL chạy lệnh sau:
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sinhvien1T'
+
+# JavaScript - TypeScript
+1. Different between: CONST - LET - VAR
+VAR: Tạo biến có giá trị trong 1 Function. Không tạo ra thuộc tính mới cho THIS
+LET: Tạo biến có giá trị trong 1 Block. Không tạo ra thuộc tính mới cho THIS
+CONST: Tạo hằng.
+2.  Các giá trị đặc biệt:
+False
+Null: Giá trị rỗng. Khi thực hiện các Operator thì coi như là 0
+Undifined
+0
+Infinity: Số vô cùng (Vd: Chia cho 0...)
+NaN (Not a number): Không phải số (Vd: undifined/ 2, null / null ...)
+3.  Console.log(typeof null) => object ??????
+4. Tham trị và Tham biến
+Tham trị: gồm những giá trị mang kiểu String, Number, Boolean, Null, Undifine. 
+Tham biến: Những giá trị kiểu Object.
+5.  Array
+.push(‘Thanh’): Thêm vào cuối mảng. Làm thay đổi. Output: New length của mảng
+.pop(): Xóa phần tử cuối. Làm thay đổi. Output:  Phần tử bị xóa.
+.shift(): Xóa phần tử đầu của mảng. Làm thay đổi. Output: Phần tử bị xóa
+.unshift(‘Thanh’): Thêm phân tử vào đẩu mảng. Làm thay đổi. Output:n New length của mảng.
+.splice(indexStart, countDelete, itemAdd...). Làm thay đổi. Output: Phần tử bị xóa. Nếu không xóa, chỉ thêm thì return [];
+Array.isArray(arrNumber): Check có phải là array hay k? hoặc có thể dùng:
+ function isArray(x) {
+return x.constructor.toString().indexOf(“Array”) > -1;
+};
+fruits instanceof Array     // trả về kết quả true
+6. String
+7.  Khởi tạo file init ts và biên dịch code qua js.
+tsc --init: auto chay
+tsc -w: theo doi thay doi
