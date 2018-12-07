@@ -75,7 +75,7 @@ tsc --init: auto chay
 tsc -w: theo doi thay doi
 
 ## Ubuntu
-<img src="https://imgur.com/a/27ALp4j">
+![alt text](https://imgur.com/a/27ALp4j)
 
 `sudo apt-get autoremove`
 
