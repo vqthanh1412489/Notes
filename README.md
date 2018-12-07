@@ -21,7 +21,7 @@
 - Prettier - Code formater (Esben Petersen): Crtl + Shift + I
 
 # Plugin Sublime Text
- - Emmet
+- Emmet
 - AutoFileName
 - SideBarEnhancements
 - Advanced New File (ctrl + alt + n)
@@ -34,7 +34,7 @@
   - Module: mkdirp
       mkdirp(‘’/public/jpg’);
 # Vietnamese
-à','á','ạ','ả','ã','â','ầ','ấ','ậ','ẩ','ẫ','ă','ằ','ắ','ặ','ẳ','ẵ','è','é','ẹ','ẻ','ẽ','ê','ề','ế','ệ','ể','ễ','ì','í','ị','ỉ','ĩ','ò','ó','ọ','ỏ','õ','ô','ồ','ố','ộ','ổ','ỗ','ơ','ờ','ớ','ợ','ở','ỡ','ù','ú','ụ','ủ','ũ','ư','ừ','ứ','ự','ử','ữ','ỳ','ý','ỵ','ỷ','ỹ','đ','À','Á','Ạ','Ả','Ã','Â','Ầ','Ấ','Ậ','Ẩ','Ẫ','Ă','Ằ','Ắ','Ặ','Ẳ','Ẵ','È','É','Ẹ','Ẻ','Ẽ','Ê','Ề','Ế','Ệ','Ể','Ễ','Ì','Í','Ị','Ỉ','Ĩ','Ò','Ó','Ọ','Ỏ','Õ','Ô','Ồ','Ố','Ộ','Ổ','Ỗ','Ơ','Ờ','Ớ','Ợ','Ở','Ỡ','Ù','Ú','Ụ','Ủ','Ũ','Ư','Ừ','Ứ','Ự','Ử','Ữ','Ỳ','Ý','Ỵ','Ỷ','Ỹ','Đ
+`à','á','ạ','ả','ã','â','ầ','ấ','ậ','ẩ','ẫ','ă','ằ','ắ','ặ','ẳ','ẵ','è','é','ẹ','ẻ','ẽ','ê','ề','ế','ệ','ể','ễ','ì','í','ị','ỉ','ĩ','ò','ó','ọ','ỏ','õ','ô','ồ','ố','ộ','ổ','ỗ','ơ','ờ','ớ','ợ','ở','ỡ','ù','ú','ụ','ủ','ũ','ư','ừ','ứ','ự','ử','ữ','ỳ','ý','ỵ','ỷ','ỹ','đ','À','Á','Ạ','Ả','Ã','Â','Ầ','Ấ','Ậ','Ẩ','Ẫ','Ă','Ằ','Ắ','Ặ','Ẳ','Ẵ','È','É','Ẹ','Ẻ','Ẽ','Ê','Ề','Ế','Ệ','Ể','Ễ','Ì','Í','Ị','Ỉ','Ĩ','Ò','Ó','Ọ','Ỏ','Õ','Ô','Ồ','Ố','Ộ','Ổ','Ỗ','Ơ','Ờ','Ớ','Ợ','Ở','Ỡ','Ù','Ú','Ụ','Ủ','Ũ','Ư','Ừ','Ứ','Ự','Ử','Ữ','Ỳ','Ý','Ỵ','Ỷ','Ỹ','Đ`
 
 # MySQL
 Khi mới cài đặt kết nối với MySQL có lỗi: 
@@ -75,57 +75,55 @@ tsc --init: auto chay
 tsc -w: theo doi thay doi
 
 # Ubuntu
-sudo apt-get autoremove
+```sudo apt-get autoremove```
 
-sudo apt-get clean
-sudo apt-get autoclean
-
+```sudo apt-get clean
+sudo apt-get autoclean```
+```
 du -sh ~/.cache/thumbnails
-rm -rf ~/.cache/thumbnails/*
+rm -rf ~/.cache/thumbnails/*```
 
-sudo dpkg --list 'linux-image*'
-sudo apt-get remove linux-image-VERSION // add version 
+```sudo dpkg --list 'linux-image*'
+sudo apt-get remove linux-image-VERSION // add version ```
 
-* Minimiza windows
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+Minimiza windows
+```gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'```
 
-sudo apt update
+Install Nodejs & npm
+```sudo apt install nodejs
+sudo apt install npm```
 
-* Install Nodejs & npm
-sudo apt install nodejs
-sudo apt install npm
+Install Yarn
+```curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list```
 
-* Install Yarn
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-
-sudo apt-get update && sudo apt-get install --no-install-recommends yarn
+```sudo apt-get update && sudo apt-get install --no-install-recommends yarn```
 
 
-* Install nodemon
-sudo npm install -g nodemon
+Install nodemon
+```sudo npm install -g nodemon```
 
 * Install mongodb
-sudo apt install -y mongodb
+```sudo apt install -y mongodb```
 
 
-* Managing the MongoDB Service
-sudo systemctl status mongodb
+Managing the Service
+```sudo systemctl status mongodb
 sudo systemctl stop mongodb
 sudo systemctl start mongodb
 sudo systemctl restart mongodb
 
 service --status-all
 systemctl disable mongodb
-systemctl enable mongodb
+systemctl enable mongodb```
 
-* Save ssh-key githup
-git config credential.helper store
+Save ssh-key githup
+```git config credential.helper store```
 
 
-* Classic menu
-sudo apt-add-repository ppa:diesch/testing
+Classic menu
+```sudo apt-add-repository ppa:diesch/testing
 sudo apt-get update
-sudo apt-get install classicmenu-indicator
+sudo apt-get install classicmenu-indicator```
 
 
