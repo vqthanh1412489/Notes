@@ -1,5 +1,13 @@
 ## Notes
 
+|Name|Age  |
+|---|---|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+
 ## Push heroku Nodejs
 - Xóa tất cả các dòng code dứ thừa phát sinh phục vụ quá trình dev (vd: reload, test...)
 - Sửa trong file package.json
@@ -75,8 +83,6 @@ tsc --init: auto chay
 tsc -w: theo doi thay doi
 
 ## Ubuntu
-<img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350">
-
 `sudo apt-get autoremove`
 
 ```sh 
