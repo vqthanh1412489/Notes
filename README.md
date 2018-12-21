@@ -120,6 +120,9 @@ sudo dpkg --list 'linux-image*'
 sudo apt-get remove linux-image-VERSION // add version 
 ```
 
+**Stop service from starting on system boot**
+>  sudo update-rc.d mongodb disable
+
 **Minimiza windows**
 ```sh 
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
